@@ -5,7 +5,12 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-  }
+    background-image: url('./asset/base.jpg');
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the image */
+}
+
   
   /* Container for the whole app */
   .container {
@@ -13,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 50px;
     background-color: #e2e2e2;
   }
   
